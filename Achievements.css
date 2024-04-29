@@ -1,0 +1,51 @@
+#goals{
+    justify-content:center;
+    text-align: center;
+    background-color: #F2C9CC;
+    height: 50vh;
+    width:120vh;
+  }#Dream{
+    color: brown;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 30px;
+  }.mentee{
+    width:30%;
+    padding:10px;
+    border-radius: 12px;
+    background-color:blue;
+    color:white;
+  }#Achieve{
+    width:55%;
+    padding:20px;
+    background-color: bisque;
+  }.mentee a{
+    text-decoration: none;
+    color:white;
+    
+  }
+@media  only screen and(max-width:600px){
+    #goals{
+        justify-content:center;
+        text-align: center;
+        background-color: #F2C9CC;
+        height: 10px;
+        width:10px;
+      }#Dream{
+        color: brown;
+        font-family:'Times New Roman', Times, serif;
+        padding-top: 10px;
+      }.mentee{
+        width:10px;
+        padding:5px;
+        border-radius: 12px;
+        background-color:blue;
+        color:white;
+      }#Achieve{
+        width:15%;
+        padding:10px;
+        background-color: bisque;
+      }.mentee a{
+        text-decoration: none;
+        color:white; 
+}
+}

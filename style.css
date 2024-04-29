@@ -1,0 +1,284 @@
+.header{
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+  color:white;
+  background-color: blue;
+  width:1750px;
+}.Hero{
+  background-image: url(images/men.png);
+  background-repeat: no-repeat;
+  /* width:2000px; */
+  height:600px;
+background-size: cover;
+padding-top: 40px;
+}.footer{
+  display:flex;
+  background-color: black;
+  color:white;
+  gap:14%;
+  text-align: center;
+  justify-content: center;
+  
+}.Hero h1{
+padding-top: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: xx-large;
+color:white;
+}a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.forms{
+  text-align: center;
+  justify-content: center;
+  background-color:#F2C9CC;
+   height:70vh;
+   width:180vh;
+   font-size: larger;
+   font-style: italic;
+   border-bottom: 1px solid;
+}#email{
+border-radius: 4px;
+width:55%;
+padding:15px;
+background-color: bisque;
+}#lastname{
+ border-radius: 4px;
+ width:55%;
+ padding:15px;
+ background-color: bisque;
+}#firstname{
+  border-radius: 4px;
+  width:55%;
+  padding:15px;
+  background-color: bisque
+}#button{
+  cursor:pointer;
+  background-color: blue;
+  color:white;
+  width:35%;
+  padding:10px;
+}#button a{
+  color:white;
+  text-decoration: none;
+}
+
+
+
+
+.sign-in{
+  border: 1 solid;
+  background-color:#F2C9CC;
+  height: 70vh;
+  width:180vh;
+  justify-content: center;
+  border-radius: 10px;
+  bottom: 2px;
+
+
+}.signed-in{
+ text-align: center;
+ justify-content: center;
+ font-size: medium;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}#username{
+  border-radius: 12px;
+  background-color: bisque;
+  padding: 15px;
+  width:55%;
+  justify-content: center;
+  text-align: center;
+
+}#password{
+  border-radius: 12px;
+  background-color: bisque;
+  padding:15px;
+  width:55%;
+  justify-content: center;
+  text-align: center;
+}.btn{
+  background-color: blue;
+  color: brown;
+  justify-content: center;
+  border-radius: 10px;
+  justify-content: center;
+  padding:20px;
+  width:15%;
+}.btn :hover{
+  background-color: blue;
+  cursor: pointer;
+  
+}
+
+
+
+ul li{
+  cursor: pointer;
+  position:relative;
+  padding:12px 8px 12px 40px;
+  background: white;
+  font-size: 20px;
+  transition: 0.2s;
+}
+ul li:nth-child(odd){
+  background-color: #F2C9CC;
+} ul li:hover{
+  background: pink;
+}ul li.checked{
+  background:lightblue;
+  color:#fff;
+  text-decoration: line-through;
+}ul li.checked::before{
+  position: absolute;
+  border-color:pink;
+  border-style:solid;
+  top:10px;
+  left:16px;
+  transform:rotate(45deg);
+  height:15px;
+  width:7px;
+
+}.close{
+  position:absolute;
+  right:0;
+  top:0;
+  padding:12px 16px 12px 16px;
+}.close:hover{
+  background-color:palevioletred;
+  color:white;
+}.header{
+  background-color: palevioletred;
+  padding:30px 40px;
+  color:white;
+  text-align: center;
+}#myInput{
+ margin:0;
+ border:none;
+ border-radius: 0;
+ width:75%;
+ padding:10px;
+ float:left;
+ font-size:16px;
+}.addBtn{
+  padding:10px;
+  width:5%;
+  background-color: blue;
+  color:white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.setting{
+  background-color: #F2C9CC;
+  justify-content: center;
+  text-align: center;
+   height:70vh;
+  width:140vh;
+
+}#change{
+  width:55%;
+  padding:20px;
+  color: black;
+}
+#views{
+ width:55%;
+ padding:20px;
+ color:black;
+}
+#update{
+  width:55%;
+ padding:20px;
+ color:black;
+  
+}.goals{
+  display:flex;
+  gap:5%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}#updated{
+  width:30%;
+  padding:10px;
+  border-radius: 12px;
+}
+
+#goals{
+  justify-content:center;
+  text-align: center;
+  background-color: #F2C9CC;
+  height: 50vh;
+  width:120vh;
+}#Dream{
+  color: brown;
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 30px;
+}.mentee{
+  width:30%;
+  padding:10px;
+  border-radius: 12px;
+  background-color:blue;
+  color:white;
+}#Achieve{
+  width:55%;
+  padding:20px;
+  background-color: bisque;
+}.mentee a{
+  text-decoration: none;
+  color:white;
+}
+
+.mentorsprofile{
+  display:flex;
+  background-color:#F2C9CC ;
+  gap: 50px;
+  color:brown;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 500px;
+
+  
+}.profile img{
+  padding-top: 20px;
+  padding-left: 20px;
+}.profiled{
+  color:blue;
+}.profily{
+  color:brown;
+}#home{
+  width:70%;
+  padding:10px;
+  background-color: blue;
+  color:white;
+}.goal a{
+ color:blue;
+}#smart{
+  color:blue;
+}.homego{
+  border-radius: 6px;
+  padding:12px;
+  width:35%px;
+  color:white;
+  background-color: blue;
+}.up{
+  border-radius: 4px;
+  background-color: blue;
+  color:white;
+  align-items: center;
+  padding: 20px;
+  width:12%;
+  justify-content: center;
+  text-align: center;
+  padding-left: 20px;
+}
+@media only screen and(max-width:768px){
+  
+}
+
+
+  

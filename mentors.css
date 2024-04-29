@@ -1,0 +1,73 @@
+.mentorsprofile{
+    display:flex;
+    background-color:#F2C9CC ;
+    gap: 50px;
+    color:brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 500px;
+  
+    
+  }.profile img{
+    padding-top: 20px;
+    padding-left: 20px;
+  }.profiled{
+    color:blue;
+  }.profily{
+    color:brown;
+  }#home{
+    width:70%;
+    padding:10px;
+    background-color: blue;
+    color:white;
+  }.goal a{
+   color:blue;
+  }#smart{
+    color:blue;
+  }.homego{
+    border-radius: 6px;
+    padding:12px;
+    width:35%px;
+    color:white;
+    background-color: blue;
+  }
+@media  screen and (min-width:480px){
+    .mentorsprofile{
+        display:flex;
+        background-color:#F2C9CC ;
+        gap: 10px;
+        color:brown;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 200px;
+        width:20%;
+      
+        
+      }.profile img{
+        padding-top: 20px;
+        padding-left: 20px;
+      }.profiled{
+        color:blue;
+        font-size: x-small;
+      }.profily{
+        color:brown;
+        font-size: small;
+      }#home{
+        width:15px;
+        padding:8px;
+        background-color: blue;
+        color:white;
+      }.goal a{
+       color:blue;
+      }#smart{
+        color:blue;
+      }.homego{
+        border-radius: 6px;
+        padding:6px;
+        width:25px;
+        color:white;
+        background-color: blue;
+}.profiledimage{
+    width:20px;
+}
+}
+
+    
