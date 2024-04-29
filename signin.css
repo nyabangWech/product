@@ -30,7 +30,55 @@
      background-color: blue;
      cursor: pointer;
      
+   }.sign-in{
+    border: 1 solid;
+    background-color:#F2C9CC;
+    height: 70vh;
+    width:180vh;
+    justify-content: center;
+    border-radius: 10px;
+    bottom: 2px;
    }
-   @media all screen and(min-width:280px) and(max-width:1024px){
+   @media only screen and (min-width: 4680px){
+    .signed-in{
+      font-size: medium;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }#username{
+       border-radius: 12px;
+       background-color: bisque;
+       padding: 15px;
+       width:55%;
+       justify-content: center;
+       text-align: center;
+     
+     }#password{
+       border-radius: 12px;
+       background-color: bisque;
+       padding:15px;
+       width:55%;
+       justify-content: center;
+       text-align: center;
+     }.btn{
+       background-color: blue;
+       color: brown;
+       justify-content: center;
+       border-radius: 10px;
+       justify-content: center;
+       padding:20px;
+       width:15%;
+     }.btn :hover{
+       background-color: blue;
+       cursor: pointer;
+       
+     }.sign-in{
+      border: 1 solid;
+      background-color:#F2C9CC;
+      height: 70vh;
+      width:5vh;
+      justify-content: center;
+      border-radius: 10px;
+      bottom: 2px;
+   }
+  }
     
-   }
+    
