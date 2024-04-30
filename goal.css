@@ -3,7 +3,7 @@
     justify-content: center;
     text-align: center;
      height:70vh;
-    width:140vh;
+    width:52vh;
   
   }#change{
     width:55%;
@@ -38,52 +38,48 @@
     height: 50vh;
     width:120vh;
   }
-  @media  screen and(min-width:768px){
-
- 
+  @media all and(min-width:280px) and(max-width:1024px){
     .setting{
-        background-color: #F2C9CC;
-        justify-content: center;
-        text-align: center;
-         height:30px;
-        width:10px;
-        background-size: 10px;
+      background-color: #F2C9CC;
+      justify-content: none;
+      text-align: none;
+       height:50px;
+      width:80px;
+    
+    }#change{
+      width:10%;
+      padding:10px;
+      color: black;
+    }
+    #views{
+     width:25%;
+     padding:20px;
+     color:black;
+    }
+    #update{
+      width:25%;
+     padding:10px;
+     color:black;
       
-      }#change{
-        width:15%;
-        padding:10px;
-        color: black;
-      }
-      #views{
-       width:5%;
-       padding: 10px;
-       color:black;
-      }
-      #update{
-        width:5px;
-       padding:10px;
-       color:black;
-        
-      }.goals{
-        display:flex;
-        gap:4px;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        flex-wrap: wrap;
-      }#updated{
-        width:10px;
-        padding:5px;
-        border-radius: 5px;
-      }
-      
-      #goals{
-        justify-content:center;
-        text-align: center;
-        background-color: #F2C9CC;
-        height: 10px;
-        width:1px;
-
+    }.goals{
+      display:flex;
+      gap:2%;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }#updated{
+      width:20%;
+      padding:5px;
+      border-radius: 10px;
+    }
+    
+    #goals{
+      justify-content:none;
+      text-align: none;
+      background-color: #F2C9CC;
+      height: 50px;
+      width:120px;
   }
 }
 
+ 
     
