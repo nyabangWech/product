@@ -1,0 +1,72 @@
+.forms{
+    text-align: center;
+    justify-content: center;
+    background-color:#F2C9CC;
+     height:70vh;
+     width:180vh;
+     font-size: larger;
+     font-style: italic;
+     border-bottom: 1px solid;
+  }#email{
+  border-radius: 4px;
+  width:55%;
+  padding:15px;
+  background-color: bisque;
+  }#lastname{
+   border-radius: 4px;
+   width:55%;
+   padding:15px;
+   background-color: bisque;
+  }#firstname{
+    border-radius: 4px;
+    width:55%;
+    padding:15px;
+    background-color: bisque
+  }#button{
+    cursor:pointer;
+    background-color: blue;
+    color:white;
+    width:35%;
+    padding:10px;
+  }#button a{
+    color:white;
+    text-decoration: none;
+  }
+  
+@media all and(min-width:600px) and(max-width:1024px){
+    .forms{
+        text-align: center;
+        justify-content: center;
+        background-color:#F2C9CC;
+         height:50px;
+         width:100px;
+         font-size: medium;
+         font-style: italic;
+         border-bottom: 1px solid;
+      }#email{
+      border-radius: 4px;
+      width:25%;
+      padding:10px;
+      background-color: bisque;
+      }#lastname{
+       border-radius: 4px;
+       width:25%;
+       padding:10px;
+       background-color: bisque;
+      }#firstname{
+        border-radius: 4px;
+        width:25%;
+        padding:10px;
+        background-color: bisque
+      }#button{
+        cursor:pointer;
+        background-color: blue;
+        color:white;
+        width:15%;
+        padding:5px;
+      }#button a{
+        color:white;
+        text-decoration: none;
+      }
+      
+}

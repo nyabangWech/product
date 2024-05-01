@@ -30,20 +30,21 @@
     color:white;
     background-color: blue;
   }
-@media  screen and (min-width:768px){
+@media  all and (min-width:100px) and(max-width:768px){
     .mentorsprofile{
-        display:flex;
+        display:wrap;
         background-color:#F2C9CC ;
         gap: 10px;
         color:brown;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         height: 200px;
-        width:30%;
+        width:15%;
+        flex-wrap: wrap;
       
         
       }.profile img{
-        padding-top: 20px;
-        padding-left: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
       }.profiled{
         color:blue;
         font-size: x-small;
@@ -51,7 +52,7 @@
         color:brown;
         font-size: small;
       }#home{
-        width:25px;
+        width:15px;
         padding:8px;
         background-color: blue;
         color:white;
@@ -60,13 +61,13 @@
       }#smart{
         color:blue;
       }.homego{
-        border-radius: 6px;
-        padding:6px;
-        width:25px;
+        border-radius: 4px;
+        padding:4px;
+        width:15px;
         color:white;
         background-color: blue;
 }.profiledimage{
-    width:20px;
+    width:15px;
 }
 }
 

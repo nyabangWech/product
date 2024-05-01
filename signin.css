@@ -39,15 +39,15 @@
     border-radius: 10px;
     bottom: 2px;
    }
-   @media only screen and (min-width: 4680px){
+   @media all and (min-width: 600px) and (max-width: 1024px){
     .signed-in{
       font-size: medium;
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }#username{
        border-radius: 12px;
        background-color: bisque;
-       padding: 15px;
-       width:55%;
+       padding: 10px;
+       width:25%;
        justify-content: center;
        text-align: center;
      
@@ -55,7 +55,7 @@
        border-radius: 12px;
        background-color: bisque;
        padding:15px;
-       width:55%;
+       width:25%;
        justify-content: center;
        text-align: center;
      }.btn{
